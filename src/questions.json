@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What type of framework is Vue.js?",
+    "answerOptions": [
+      { "answer": "Frontend", "isCorrect": true },
+      { "answer": "Backend" },
+      { "answer": "FullStack"},
+      { "answer": "None of the above" }
+    ]
+  },
+  {
+    "question": "What is the extension in Vue.js for a single-file component?",
+    "answerOptions": [
+      { "answer": ".jsx" },
+      { "answer": ".js" },
+      { "answer": ".vue", "isCorrect": true },
+      { "answer": ".css" }
+    ]
+  },
+  {
+    "question": "Which CSS Framework are we using?",
+    "answerOptions": [
+      { "answer": "Bootstrap" },
+      { "answer": "TailwindCSS", "isCorrect": true },
+      { "answer": "Chakra UI" },
+      { "answer": "Bulma CSS" }
+    ]
+  },
+  {
+    "question": "Which class in Tailwind is used to set flex direction of column?",
+    "answerOptions": [
+      { "answer": "col" },
+      { "answer": "col-flex" },
+      { "answer": "flex-col", "isCorrect": true },
+      { "answer": "None of the above" }
+    ]
+  }
+]
