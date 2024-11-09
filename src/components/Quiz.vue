@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, computed } from "vue";
+import { ref, computed } from "vue";
 import questions from "../questions.json";
 import Question from "./Question.vue";
 import Result from "./Result.vue";
@@ -25,8 +25,8 @@ const onOptionSelected = (isCorrect) => {
 </script>
 
 <template>
-  <div v-if="!showResults" className="bg-slate-900 flex flex-col items-center w-full">
-    <h4 className="mt-10 text-xl text-white/60">
+  <div v-if="!showResults" class="bg-slate-900 gap-2 flex flex-col items-center mx-auto w-3/4 md:w-1/2">
+    <h4 class="mt-10 text-xl text-white/60">
       Question {{ questionStatus }}
     </h4>
     <Question

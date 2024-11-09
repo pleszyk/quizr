@@ -11,16 +11,16 @@ const emitSelectedOption = (isCorrect) => {
 </script>
 
 <template>
-  <div className="mt-4 text-2xl text-white">
+  <div class="mt-4 text-2xl text-white">
     {{ question.question }}
   </div>
   <div
     @click="emitSelectedOption(option.isCorrect)"
     v-for="option in question.answerOptions"
-    className="flex items-center w-full py-4 pl-5 m-2 ml-0 space-x-2 border-2 cursor-pointer border-white/10 rounded-xl bg-white/5"
+    class="flex items-center w-full py-4 pl-5 m-2 ml-0 space-x-2 border-2 cursor-pointer border-white/10 rounded-xl hover:bg-black/5 bg-white/5"
   >
-    <input type="radio" className="w-6 h-6 bg-black" />
-    <p className="ml-6 text-white">{{ option.answer }}</p>
+    <input type="radio" class="w-6 h-6 bg-black" />
+    <p class="ml-6 text-white">{{ option.answer }}</p>
   </div>
 </template>
 
